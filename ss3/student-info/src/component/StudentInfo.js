@@ -11,7 +11,7 @@ function StudentInfo() {
                     <th>Tuổi</th>
                 </tr>
                 {student.map((item, index) => (
-                    <tr>
+                    <tr key={item.name}>
                         <td>{index + 1}</td>
                         <td>{item.name}</td>
                         <td>{item.age}</td>
