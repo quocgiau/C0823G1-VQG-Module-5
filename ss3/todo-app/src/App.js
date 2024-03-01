@@ -30,7 +30,7 @@ class App extends Component {
                 </div>
                 <table style={{textAlign: "center"}}>
                     {this.state.tasks.map((task, index) => (
-                        <tr>
+                        <tr key={index}>
                             <td>{task}</td>
                         </tr>
                     ))}
