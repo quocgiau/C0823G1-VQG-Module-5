@@ -1,0 +1,19 @@
+{
+  "todo": [
+    {
+      "id": "1",
+      "title": "todo",
+      "flag": "true"
+    },
+    {
+      "id": "2",
+      "title": "list",
+      "flag": false
+    },
+    {
+      "id": "4",
+      "title": "giau",
+      "flag": "true"
+    }
+  ]
+}
