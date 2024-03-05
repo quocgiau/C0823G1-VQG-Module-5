@@ -1,9 +1,9 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {ErrorMessage, Field, Form, Formik} from "formik";
 import * as Yup from "yup";
 import {useNavigate} from "react-router-dom";
 import {toast} from "react-toastify";
-// import './App.css';
+import './letters.css';
 
 function FormContact() {
     const letters = [];
@@ -17,9 +17,10 @@ function FormContact() {
     }
     const validateContact = {
         name: Yup.string().min(3, "Tên không được ít hơn 3 ký tự")
-            .max(100, "Tên không được quá 100 ký tự")
+            .max(100, "Tên không được quá 100 ký tự").required("Trường bắt buộc nhập")
             .matches(/^[a-zA-Z ]{3,100}$/, "Ten không đúng định dạng"),
-        email: Yup.string().matches(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/, "Email không đúng định dạng")
+        email: Yup.string().matches(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/, "Email không đúng định dạng").required("Trường bắt buộc nhập"),
+        phone: Yup.string().required("Trường bắt buộc nhập")
     }
     const addNewLetter = (value) => {
         value.id = +value.id;
@@ -37,8 +38,23 @@ function FormContact() {
                        <Field name="name"/>
                        <ErrorMessage name="name" className="error" component="span"></ErrorMessage>
                    </div>
+                   <div>
+                       <label>Email </label>
+                       <Field name="email"/>
+                       <ErrorMessage name="email" className="error" component="span"></ErrorMessage>
+                   </div>
+                   <div>
+                       <label>Phone </label>
+                       <Field name="phone"/>
+                       <ErrorMessage name="phone" className="error" component="span"></ErrorMessage>
+                   </div>
+                   <div>
+                       <label>Message </label>
+                       <Field as="textarea" name="message"/>
+                       <ErrorMessage name="message" className="error" component="span"></ErrorMessage>
+                   </div>
+                   <button type="submit">Submit</button>
                </Form>
-                <button type="submit">Submit</button>
             </Formik>
         </div>
     )
