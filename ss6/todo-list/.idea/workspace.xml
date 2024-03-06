@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e5c2dc-a7a4-4ce9-85b9-62dd12c18876" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Add.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/TodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/TodoService.js" afterDir="false" />
-    </list>
+    <list default="true" id="37e5c2dc-a7a4-4ce9-85b9-62dd12c18876" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +16,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2dGAP5Vu7HUWV9QNmCwGJffTYsA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +30,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/CODEGYM/Module_5/ss6/todo-list",
+    "last_opened_file_path": "D:/CODEGYM/Module_5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709624013501</updated>
       <workItem from="1709624014544" duration="1300000" />
+      <workItem from="1709626418126" duration="100000" />
     </task>
     <servers />
   </component>
