@@ -16,6 +16,7 @@ export default function Add() {
                 back("/")
             }}>
                 <Form>
+
                     <p>ID</p>
                     <Field name='id'/>
                     <p>Title</p>
