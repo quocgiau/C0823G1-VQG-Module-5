@@ -1,0 +1,37 @@
+{
+  "customer": [
+    {
+      "id": 0,
+      "name": "Dung Huynh",
+      "dateOfBirth": "2001-12-15",
+      "gender": "Nam",
+      "identification": "012345678922",
+      "phoneNumber": "0123456782",
+      "email": "Khanh@gg.com",
+      "level": "Platinium",
+      "address": "92 Hàm nghi"
+    },
+    {
+      "id": 1,
+      "name": "Nguyen Dat",
+      "dateOfBirth": "2000-10-22",
+      "gender": "Nam",
+      "identification": "012345678922",
+      "phoneNumber": "0123456789",
+      "email": "dat@gg.com",
+      "level": "Member",
+      "address": "23 Lê Duẩn"
+    },
+    {
+      "name": "Vo Giau",
+      "dateOfBirth": "2024-03-15",
+      "gender": "Nữ",
+      "identification": "213231241443",
+      "phoneNumber": "0988575981",
+      "email": "quocgiau61s@gmail.com",
+      "level": "Platinium",
+      "address": "Liên Chiểu, Thanh Khê",
+      "id": 2
+    }
+  ]
+}

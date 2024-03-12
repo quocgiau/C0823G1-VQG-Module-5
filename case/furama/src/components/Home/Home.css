@@ -1,0 +1,32 @@
+.display11{
+    position: relative;
+    top:5rem
+}
+.color11{
+    color: #CBBD73
+}
+.h22{
+    text-align: center;
+    color: #CBBD73
+}
+.img11{
+    border-radius: 5px
+}
+.text11{
+    text-align: center;
+    width: 50%
+}
+.display12{
+    display: flex;
+    justify-content: center
+}
+.color12{
+    color: white
+}
+.container {
+    display: flex;
+}
+
+.div1 {
+    padding: 2%;
+}

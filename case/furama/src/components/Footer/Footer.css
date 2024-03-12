@@ -1,0 +1,28 @@
+.display5{
+    padding-top: 3%
+}
+
+.display7{
+    display: flex
+}
+.color3{
+    color: green;
+    font-size: 24px
+}
+.padding1{
+    padding-right: 5%
+}
+.text1{
+    text-align: center
+}
+.display6{
+    padding: 2%
+}
+.icon{
+    font-size: 48px;
+    padding: 3px;
+    color: green
+}
+.background-color1{
+    background-color: #ADDCCE;
+}

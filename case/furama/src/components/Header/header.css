@@ -1,0 +1,44 @@
+.display1{
+    display: flex;
+}
+.display2{
+    display: flex;
+    margin-top: 1%
+}
+.display3{
+    padding-right: 5%
+}
+.color1{
+    color: green ;
+    font-size: 24px
+}
+.color2{
+    color: white
+}
+.img1{
+    position: relative;
+    top: 2rem
+}
+.hello1{
+    background-color: #065F56 ;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem
+}
+.hello2{
+    margin-right: 2rem;
+    color: white
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    /*font-size: var(--bs-nav-link-font-size);*/
+    font-weight: var(--bs-nav-link-font-weight);
+    /*color: var(--bs-nav-link-color);*/
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+     color: white;
+}

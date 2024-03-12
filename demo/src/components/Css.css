@@ -1,0 +1,12 @@
+.h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-transform: uppercase
+}
+.dis{
+    text-decoration: none;
+    color: inherit
+}
