@@ -20,6 +20,7 @@ function Add(){
 
 
     const handleSubmit = async (value) => {
+        console.log("1231")
         try {
             await CustomerService.createCustomer(value);
             console.log(value);

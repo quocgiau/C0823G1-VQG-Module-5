@@ -12,26 +12,15 @@
       "address": "92 Hàm nghi"
     },
     {
-      "id": 1,
-      "name": "Nguyen Dat",
-      "dateOfBirth": "2000-10-22",
-      "gender": "Nam",
-      "identification": "012345678922",
-      "phoneNumber": "0123456789",
-      "email": "dat@gg.com",
-      "level": "Member",
-      "address": "23 Lê Duẩn"
-    },
-    {
       "name": "Vo Giau",
-      "dateOfBirth": "2024-03-15",
-      "gender": "Nữ",
+      "dateOfBirth": "2024-03-06",
+      "gender": "Nam",
       "identification": "213231241443",
       "phoneNumber": "0988575981",
       "email": "quocgiau61s@gmail.com",
       "level": "Platinium",
-      "address": "Liên Chiểu, Thanh Khê",
-      "id": 2
+      "address": "86, Nguyễn Sinh Sắc, Hòa Minh, Liên Chiểu Đà Nẵng ",
+      "id": 1
     }
   ]
 }
